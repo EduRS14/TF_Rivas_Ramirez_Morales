@@ -1,0 +1,2 @@
+En la presente sección, se incluye la dataset que usaremos para la resolución de la problemática
+e implementación de la solución.
