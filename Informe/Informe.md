@@ -120,7 +120,13 @@ Durante esta fase, nos centraremos en encontrar los algoritmos apropiados para n
 
 Comprendimos que podríamos usar diferentes algoritmos para recorrer el grafo presentado de un vértice a otro. Necesitábamos encontrar un algoritmo que no solo sea rápido, sino también que consuma poca memoria debido a la gran cantidad de datos
 
-Finalmente, tomamos la decisión de utilizar la búsqueda en profundidad iterativa (IDS), debido a que garantiza que no nos terminemos alejando demasiado del vértice objetivo (o nos atasquemos en un bucle), y consume mucha menos memoria que otros algoritmos. También, a nivel de front-end, hemos decidido implementar una interfaz entendible y simple de entender y usar, que tenga las celdas necesarias para una implementación sencilla de la aplicación y dar una respuesta concisa. 
+Por lo cual, a nivel de Back-End, tomamos la decisión de utilizar la búsqueda en profundidad iterativa (IDS), debido a que garantiza que no nos terminemos alejando demasiado del vértice objetivo (o nos atasquemos en un bucle), y consume mucha menos memoria que otros algoritmos.
+
+Esto lo implementaremos usando el lenguaje de programación Python, por medio de la IDE Visual Studio Code, ya que nos sentimos familiarizados con su entorno y facilidad de uso. Nos vamos a apoyar en librerías como "csv" para la lectura de archivos tipo csv. Por el lado de los grafos, luego de una investigación y puesta en práctica de diferentes alternativas, entre las que se encontraba la librería "graphviz", decidimos usar al final la librería "NetworkX" junto a "MatPlotLib", ya que estas nos generan gráficos que creemos son más efectivos, además de ofrecernos varias alternativas y opciones para modificarlos. A nivel de arquitectura del proyecto, la siguiente imagen la representa:
+
+![](arqui_proyecto.PNG)
+
+También, a nivel de front-end, hemos decidido implementar una interfaz entendible y simple de entender y usar, que tenga las celdas necesarias para una muestra sencilla de la aplicación y dar una respuesta concisa. Crearemos y diseñaremos la GUI con la librería "TKinter", la cual ya viene instalada con Python, además de usar al mismo tiempo la librería "Pillow" para una mayor facilidad a la hora de manipular imágenes. Esta interfaz se verá más adelante en el informe, en la sección "Prototipos".
 
 
 ·        **Requisitos:**
@@ -134,6 +140,7 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
 - Visualización del camino resultante en el grafo
 - Creación de un label que indique si no se pudo realizar conexión alguna
 
+
 ·        **Prototipos:**
 
 - Primer Prototipo de Interfaz Gráfica:
@@ -144,7 +151,9 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
 
   ![](proto_2.PNG)
 
+
 **Bibliografía:**
+
 
 Batra, S. (2018). *Facebook Data*. <https://www.kaggle.com/datasets/sheenabatra/facebook-data>  
 
