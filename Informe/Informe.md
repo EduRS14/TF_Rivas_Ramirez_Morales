@@ -70,7 +70,9 @@ El número de nodos con el que se trabajará será de 1500.
 
 Subgrafo de ejemplo:
 
-![](grafo.png)
+![](grafo1_h2.png)
+
+![](grafo2_h2.png)
 
 (Las versiones anteriores del subgrafo se guardarán en la carpeta llamada “Versiones del Grafo” en el repositorio)
 
