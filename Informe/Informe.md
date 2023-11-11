@@ -35,8 +35,9 @@ Tarik Gustavo Morales Oliveros - u202210472
 **ÍNDICE**
 
 1. Descripción del problema
-1. Descripción del conjunto de datos (dataset)
-1. Propuesta
+2. Descripción del conjunto de datos (dataset)
+3. Propuesta
+4. Diseño del aplicativo
 
 Bibliografía
 
@@ -117,7 +118,10 @@ Se tomará en cuenta la retroalimentación a lo largo del desarrollo y se integr
 
 Durante esta fase, nos centraremos en encontrar los algoritmos apropiados para nuestro caso, conseguir datasets de muestra que nos servirán para probar las diferentes funcionalidades del programa, y diseñar una interfaz de usuario amigable y comprensible.
 
-Tras esta fase, tomamos la decisión de utilizar la búsqueda en profundidad iterativa (IDS)
+Comprendimos que podríamos usar diferentes algoritmos para recorrer el grafo presentado de un vértice a otro. Necesitábamos encontrar un algoritmo que no solo sea rápido, sino también que consuma poca memoria debido a la gran cantidad de datos
+
+Finalmente, tomamos la decisión de utilizar la búsqueda en profundidad iterativa (IDS), debido a que garantiza que no nos terminemos alejando demasiado del vértice objetivo (o nos atasquemos en un bucle), y consume mucha menos memoria que otros algoritmos. También, a nivel de front-end, hemos decidido implementar una interfaz entendible y simple de entender y usar, que tenga las celdas necesarias para una implementación sencilla de la aplicación y dar una respuesta concisa. 
+
 
 ·        **Requisitos:**
 
@@ -130,9 +134,15 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
 - Visualización del camino resultante en el grafo
 - Creación de un label que indique si no se pudo realizar conexión alguna
 
-·        **Prototipo:**
+·        **Prototipos:**
 
+- Primer Prototipo de Interfaz Gráfica:
 
+  ![](proto_1.PNG)
+
+- Segundo Prototipo de Interfaz Gráfica:
+
+  ![](proto_2.PNG)
 
 **Bibliografía:**
 
