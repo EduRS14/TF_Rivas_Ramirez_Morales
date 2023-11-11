@@ -52,7 +52,7 @@ Por lo que, a partir de este análisis, vamos a tratar la situación y necesidad
 
 
 
-1. **Descripción del conjunto de datos (dataset):**
+2. **Descripción del conjunto de datos (dataset):**
 
 Se usará como fundación la base de datos “Facebook Data” (Batra, 2018). Los nodos de la nueva base de datos tendrán las siguientes características (pseudocódigo):
 
@@ -78,8 +78,7 @@ Subgrafos de ejemplo:
 
 
 
-1. **Propuesta:**
-
+3. **Propuesta:**
 
 
 Para ofrecer un programa en el exista la posibilidad de llegar de una persona a otra solo con solo conocer los contactos de estos como una relación amigo de mi amigo, desarrollaremos un algoritmo que, basándose en la teoría de los "seis grados de separación", pueda encontrar el camino más corto y eficiente entre dos personas sin una conexión directa. Para ello utilizaremos técnicas de búsqueda y recorrido de grafos, más precisamente búsqueda iterativa en profundidad (IDS). Además, a nivel de investigación y trabajo, primero identificamos nuestros datos con un conjunto de datos (es decir, un conjunto de datos) para considerarlos en nuestros algoritmos. De esta manera, con este algoritmo, podremos comenzar desde el nodo A hasta el nodo B y encontrar una ruta a ese nodo utilizando sus conexiones con otros nodos. Para nuestra propuesta seguimos esta serie de objetivos:
@@ -110,7 +109,7 @@ Se tomará en cuenta la retroalimentación a lo largo del desarrollo y se integr
 
 
 
-1. **Diseño del aplicativo:**
+4. **Diseño del aplicativo:**
 
 
 ·        **Planificación:**
