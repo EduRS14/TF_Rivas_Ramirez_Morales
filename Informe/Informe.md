@@ -68,7 +68,7 @@ Las aristas del grafo no serán dirigidas, ya que asumimos que al ser dos usuari
 
 El número de nodos con el que se trabajará será de 1500.
 
-Subgrafo de ejemplo:
+Subgrafos de ejemplo:
 
 ![](grafo1_h2.PNG)
 
@@ -80,11 +80,57 @@ Subgrafo de ejemplo:
 
 1. **Propuesta:**
 
-Proponemos un programa con un algoritmo en el que buscamos que a través de los contactos, exista la posibilidad de llegar de una persona a otra solo con solo conocer los contactos de estos y los contactos que estos últimos a su vez tienen y así sucesivamente hasta encontrar un camino, es como una relación amigo de mi amigo, alguien que uno no conoce pero que su conocido si lo conoce. Por ejemplo, podemos determinar dos usuarios totalmente desconocidos entre sí, sin haber alguna relación directa entre estos dos, pero podemos ir viendo los contactos que hay entre estos y hallar una conexión indirecta entre ambos desconocidos, como un amigo de ambos en común. Esto lo conseguiremos aplicando la teoría de los “seis grados de separación”, donde intentamos probar que cualquier persona puede estar conectada con otra a través de no más de 6 enlaces. En resumidas cuentas, y tomando en cuenta la teoría que aplicamos para nuestra dataset, proponemos un programa que logre encontrar el menor número de enlaces para encontrar un camino entre una persona y otra mediante un algoritmo, en el que entre estas 2 personas no haya un camino directo.
 
-Para lograrlo, vamos a utilizar una técnica de recorrido y búsqueda de grafos, más específicamente, una búsqueda en profundidad iterativa (IDS, por sus siglas en inglés). Aplicando este algoritmo, vamos a poder partir de un nodo A hasta un nodo B, buscando a través de sus conexiones con los demás nodos un camino hacia este y, si es necesario, ir ampliando el límite de profundidad de la búsqueda a medida que se recorran los diferentes caminos y no se haya encontrado aún el camino al objetivo.
 
-Para el desarrollo de nuestra propuesta seguiremos una cierta metodología en específico. Sobre la comunicación que tendrá el equipo a nivel de decisiones, información y archivos de proyectos, se usarán chats de texto, específicamente Whatsapp, para las comunicaciones más directas, Google Drive y sus herramientas para la redacción de textos y presentaciones, mientras que la plataforma GitHub para la realización de proyectos más relacionados al código, además de ir guardando nuestros archivos y avances en esta plataforma, para que esté al alcance de todos nosotros y poder ir actualizando los datos de forma segura periódicamente gracias a los comandos de Git, y así ir mejorando el proyecto a medida que pase el tiempo. Por otro lado, a nivel de la investigación y trabajo, primero identificamos nuestros datos con un dataset, es decir un conjunto de datos, los cuales consideraremos posteriormente en nuestro algoritmo. Después, analizaremos como podemos aplicar teoría vinculada con nuestra propuesta como la de grafos y/o los “seis grados de separación” dentro de nuestro algoritmo, usando para ello el conjunto de datos que hemos identificado e ir actualizando nuestras ideas y propuestas.
+Para ofrecer un programa en el exista la posibilidad de llegar de una persona a otra solo con solo conocer los contactos de estos como una relación amigo de mi amigo, desarrollaremos un algoritmo que, basándose en la teoría de los "seis grados de separación", pueda encontrar el camino más corto y eficiente entre dos personas sin una conexión directa. Para ello utilizaremos técnicas de búsqueda y recorrido de grafos, más precisamente búsqueda iterativa en profundidad (IDS). Además, a nivel de investigación y trabajo, primero identificamos nuestros datos con un conjunto de datos (es decir, un conjunto de datos) para considerarlos en nuestros algoritmos. De esta manera, con este algoritmo, podremos comenzar desde el nodo A hasta el nodo B y encontrar una ruta a ese nodo utilizando sus conexiones con otros nodos. Para nuestra propuesta seguimos esta serie de objetivos:
+
+- **Definición a detalle sobre el Problema:**
+
+Detallar casos específicos del problema donde este programa sería de gran utilidad, proporcionando ejemplos concretos de situaciones comunes y demostrando que la teoría se cumple.
+
+- **Implementación Técnica:**
+
+Implementar el algoritmo de búsqueda y recorrido de grafos y detallar las tecnologías específicas que se utilizarán en la implementación, sin olvidar que aplicamos la teoría de los "seis grados de separación" con la búsqueda en profundidad iterativa (IDS).
+
+- **Metodología Clara:**
+
+Explicar detalladamente cómo se está aplicando la teoría de grafos y los "seis grados de separación" en el algoritmo, ya sea mediante ejemplos específicos de la implementación de la búsqueda en profundidad iterativa (IDS). Por ejemplo, que intentamos demostrar que cualquier persona puede estar relacionada con otra persona por un máximo de 6 vínculos.
+
+- **Una Interfaz Clara e Intuitiva:**
+
+Diseñar e implementar una interfaz de usuario clara e intuitiva para facilitar a los usuarios el uso del programa, que sea más fácil de entender con instrucciones claras y precisas, de modo que los usuarios puedan interactuar de manera eficiente con el algoritmo sin necesidad de habilidades técnicas avanzadas. La retroalimentación de los usuarios sobre la interfaz se incorporará para realizar mejoras continuas, punto que se abarca más a detalle en otro próximo objetivo.
+
+- **Trabajo en equipo y Comunicación Continua:**
+
+Si bien en el trabajo se utilizará información y documentos del proyecto, para una comunicación más directa se utilizará el chat de texto, especialmente WhatsApp, Google Drive y sus herramientas para la redacción de textos y presentaciones, así como la plataforma GitHub. Buscamos trabajar en proyectos que están más relacionados con la codificación, además del almacenamiento de archivos y el progreso en esta plataforma para que todos seamos accesibles y podamos actualizar los datos de forma segura y periódica a través de comandos de Git, etc.
+
+- **Retroalimentación, Mejoras Continuas y Optimización:**
+
+Se tomará en cuenta la retroalimentación a lo largo del desarrollo y se integrarán mejoras continuas en el programa, como el tema de la interfaz que se mencionó anteriormente. También es importante simplificar el lenguaje técnico para hacer la propuesta más accesible a una audiencia no especializada, es decir evaluar la complejidad algorítmica de nuestro código para optimizar el rendimiento de nuestro algoritmo. 
+
+
+
+1. **Diseño del aplicativo:**
+
+
+·        **Planificación:**
+
+Durante esta fase, nos centraremos en encontrar los algoritmos apropiados para nuestro caso, conseguir datasets de muestra que nos servirán para probar las diferentes funcionalidades del programa, y diseñar una interfaz de usuario amigable y comprensible.
+
+Tras esta fase, tomamos la decisión de utilizar la búsqueda en profundidad iterativa (IDS)
+
+·        **Requisitos:**
+
+Determinamos que para el funcionamiento apropiado de la aplicación necesitaremos de las siguientes funcionalidades:
+
+- Implementación de un menú principal
+- Implementación de un cuadro para poder visualizar el grafo
+- Creación de labels para ingresar el nodo de inicio y el nodo objetivo
+- Creación de un botón para confirmar el intento de conexión
+- Visualización del camino resultante en el grafo
+- Creación de un label que indique si no se pudo realizar conexión alguna
+
+·        **Prototipo:**
 
 
 
