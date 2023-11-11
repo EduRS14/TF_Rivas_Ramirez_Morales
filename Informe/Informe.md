@@ -129,6 +129,8 @@ Esto lo implementaremos usando el lenguaje de programación Python, por medio de
 También, a nivel de front-end, hemos decidido implementar una interfaz entendible y simple de entender y usar, que tenga las celdas necesarias para una muestra sencilla de la aplicación y dar una respuesta concisa. Crearemos y diseñaremos la GUI con la librería "TKinter", la cual ya viene instalada con Python, además de usar al mismo tiempo la librería "Pillow" para una mayor facilidad a la hora de manipular imágenes. Esta interfaz se verá más adelante en el informe, en la sección "Prototipos".
 
 
+
+
 ·        **Requisitos:**
 
 Determinamos que para el funcionamiento apropiado de la aplicación necesitaremos de las siguientes funcionalidades:
