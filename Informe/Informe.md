@@ -30,7 +30,7 @@ Rodrigo Alonso Ramírez Cesti - u202210690
 
 Tarik Gustavo Morales Oliveros - u202210472
 
-**09/2023**
+**11/2023**
 
 **ÍNDICE**
 
@@ -38,6 +38,9 @@ Tarik Gustavo Morales Oliveros - u202210472
 2. Descripción del conjunto de datos (dataset)
 3. Propuesta
 4. Diseño del aplicativo
+5. Validación de resultados y pruebas
+6. Conclusiones
+7. Bibliografía
 
 Bibliografía
 
@@ -159,27 +162,27 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
 
 - Prueba 1:
 
-![]()
+![](p1_1.png)
 
-![]()
+![](p1_2.png)
 
 
 
 
 - Prueba 2:
 
-![]()
+![](p2_1.png)
 
-![]()
+![](p2_2.png)
 
 
 
 
 - Prueba 3:
 
-![]()
+![](p3_1.png)
 
-![]()
+![](p3_2.png)
 
 
 
