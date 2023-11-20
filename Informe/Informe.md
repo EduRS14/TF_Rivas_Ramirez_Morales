@@ -154,6 +154,46 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
   ![](proto_2.PNG)
 
 
+
+5. **Validación de resultados y pruebas:**
+
+- Prueba 1:
+
+![]()
+
+![]()
+
+
+
+
+- Prueba 2:
+
+![]()
+
+![]()
+
+
+
+
+- Prueba 3:
+
+![]()
+
+![]()
+
+
+
+6. **Conclusiones:**
+
+
+Tras la realización del aplicativo, y los múltiples retos que este proceso conllevó, llegamos como grupo a las siguientes conclusiones:
+
+- En el enfoque estratégico del aplicativo para conectar a dos personas desconocidas a través de sus contactos en redes sociales consta en la elección del algoritmo de búsqueda en profundidad iterativa (IDS) para demostrar un análisis cuidadoso, buscando eficiencia y optimización de recursos, especialmente en términos de consumo de memoria. Además, la combinación de la teoría de los "seis grados de separación" con técnicas de búsqueda y recorrido de grafos refleja una aproximación técnica sólida para abordar el problema planteado.
+- La construcción de un aplicativo no solo implica la escritura y compilación del código ni el desarrollo de la interfaz gráfica, sino también el descubrimiento de una necesidad, sea social o profesional, y la rigurosa planificación y ejecución que se tienen que realizar para poder ayudar a resolver dicha necesidad de manera adecuada
+- La comunicación en equipo es clave para la realización efectiva de cualquier proyecto. Nuestros canales de comunicación fueron Whatsapp (para comunicación y envío de archivos entre nosotros), Google Meet y Google Drive (para la realización del informe). Aprendimos que, al mantener comunicación constante, podríamos captar los errores que cada uno cometía individualmente y corregirlos a tiempo, además, podíamos intercambiar conocimientos que nos daba a cada uno un entendimiento más profundo del proyecto.
+- La complejidad del algoritmo es un punto muy fundamental cuando implementamos este tipo de algoritmos relacionados con grafos, pues requieren de muchos datos y muchas conexiones, y su complejidad puede influir en el tiempo que cargue un aplicativo y realice procedimientos y cálculos ya sea de los caminos elegidos dentro de los grafos, es por eso que con los conocimientos de la notación Big(O) intentamos reducir el tiempo con el menor valor Big(O) obtenido en el algoritmo, de acuerdo a las funciones y recursividades que utilicemos, algo fundamental ya que en un inicio nuestro algoritmo demoraba demasiados minutos en hacer los cálculos, pero en cambio ahora solo demora unos cuantos segundos, una diferencia muy notable.
+
+
 **Bibliografía:**
 
 
