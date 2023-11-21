@@ -40,8 +40,7 @@ Tarik Gustavo Morales Oliveros - u202210472
 4. Diseño del aplicativo
 5. Validación de resultados y pruebas
 6. Conclusiones
-7. Bibliografía
-
+Bibliografía
 
 
 
