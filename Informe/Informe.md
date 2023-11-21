@@ -42,7 +42,6 @@ Tarik Gustavo Morales Oliveros - u202210472
 6. Conclusiones
 7. Bibliografía
 
-Bibliografía
 
 
 
