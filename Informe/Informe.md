@@ -77,6 +77,8 @@ Subgrafos de ejemplo:
 
 ![](grafo2_h2.PNG)
 
+![](grafo_final.png)
+
 (Las versiones anteriores del subgrafo se guardarán en la carpeta llamada “Versiones del Grafo” en el repositorio)
 
 
@@ -154,6 +156,9 @@ Determinamos que para el funcionamiento apropiado de la aplicación necesitaremo
 
   ![](proto_2.PNG)
 
+- Tercer Prototipo de interfaz Gráfica:
+
+  ![](proto_3.png)
 
 
 5. **Validación de resultados y pruebas:**
